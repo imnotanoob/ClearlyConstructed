@@ -1,8 +1,7 @@
 # ClearlyConstructed
 Smart contracts for ClearlyConstructed. We democratize public infrastructure projects by utilizing the blockchain.
 
-Group Members: Anusha Dandamudi, Vikram Baid, Sparsh Jain, Udai Singh, Gilbert Antonious, Sahil Sancheti, and Kaden Dippe. 
-
+Created By: Vikram Baid
 # Break Down of Code
 Our code is split into three different contracts. The first is a simple project contract, in which you can start a project, fund it, hold money, and in case the project's funding goal doesn't get completed it will be pay back the respective members. We specifically chose to make specific objects public in order to uphold full transparency. The second contract is for Oracles, members of ClearlyConstructed that are involved with approving and changing funding. Each funded project is tied in with a group of 5 oracles, that are all chosen randomly to ensure that budgetting and work is getting done per project basis. The last contract is a simple container contract that ties in the first two contracts together so that it can be called via WEB3 using Metamask.
 
